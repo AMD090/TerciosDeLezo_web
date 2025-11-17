@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="icon" href="img/logo/6.png" type="image/png">
+
+    <script>
+        const stylesheets = ["css/styles.css", "css/home_styles.css"];
+
+        stylesheets.forEach(file => {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = file + "?v=" + Date.now();
+            document.head.appendChild(link);
+        });
+    </script>
+    <title>inicio</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__bar">
+
+                <div class="header__bar-logo">
+                    <div class="header__bar-logo-img-container"><img class="header__bar-logo-img" src="img/logo/logo_1.png"></div>
+                    <div class="header__bar-logo-text-container">
+                        <p class="header__bar-logo-text">"El honor mi causa</p>
+                        <p class="header__bar-logo-text">El valor mi medio"</p>
+                    </div>
+                </div>
+
+                <input type="checkbox" class="header__checkbox" id="menu-checkbox">
+                <label class="header__nav-button" for="menu-checkbox">
+                    <p>Menú</p>
+                </label>
+
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="#">Inicio</a></li>
+                        <li class="header__nav-item"><a href="#">Sobre Nosotros</a></li>
+                        <li class="header__nav-item"><a href="#">El campamento</a></li>
+                        <li class="header__nav-item"><a href="#">Galería</a></li>
+                        <li class="header__nav-item"><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+        <!--Video Inicial-->      
+        <div class="header__main_video-container">
+            <video class="header__main_video" autoplay muted loop src="video/B-PARA-WEB.mp4"></video>
+        </div>
+
+    </header>
+
+    <!--Bandera de España-->
+    <div class="flag">
+        <div class="flag__wrapper">
+            <div class="division_flag">
+                <div class="division_flag-item-red"></div>
+                <div class="division_flag-item-yellow"></div>
+                <div class="division_flag-item-red"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--MAIN-->
+    <main class="main">
+        <div class="main__wrapper">
+            <div class="main__img-container"><img class="main__img" src="img/BANDERA/DSCN3252.JPG"></div>
+
+            <div class="main__data-container">
+                <div class="main__data">
+                    <div class="main__data-description">
+                        <h1>Campamento Tercios de Lezo</h1>
+                        <p>Han transcurrido 15 años desde que el Campamento TERCIOS DE LEZO elaboró su primer programa de actividades único en España, destinado a jóvenes de ambos sexos, desde los 10 años en adelante. </p>
+                        <a class="main__data-description-link" href="#"><div class="main__data-description-link-item"><p>⬇</p></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__objectives_values-container">
+            <div class="objectives_values-img-container"><img class="objectives_values-img" src="img/imagenes_secundarias/img2.png"></div>
+        </div>
+    </main>
+
+    <!--actividades-->
+    <section class="activities">
+        <div class="activities__wrapper">
+            <h2 class="activities__h2">Actividades</h2>
+            <div class="activities__grid">
+                <div class="actividades__img-container"><img class="actividades__img" src="img/Actividades/1.png"></div>
+                <div class="actividades__img-container"><img class="actividades__img" src="img/Actividades/2.png"></div>
+                <div class="actividades__img-container"><img class="actividades__img" src="img/Actividades/3.png"></div>
+                <div class="actividades__img-container"><img class="actividades__img" src="img/Actividades/4.png"></div>
+                <div class="actividades__img-container"><img class="actividades__img" src="img/Actividades/5.png"></div>
+                <div class="actividades__img-container"><img class="actividades__img" src="img/Actividades/6.png"></div>
+                <div class="actividades__img-container"><img class="actividades__img" src="img/Actividades/7.png"></div>
+                <div class="actividades__img-container"><img class="actividades__img" src="img/Actividades/8.png"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--frase-->
+    <section class="phrase">
+        <div class="phrase__wrapper">
+            <div class="phrase__line-container"><p class="phrase__line phrase__line-1">Lejos de Engañar,</p></div>
+            <div class="phrase__line-container"><p class="phrase__line phrase__line-2">lo que ofrecemos lo cumplimos</p></div>
+        </div>
+    </section>
+
+    <!--testimonios-->
+    <section class="testimonials">
+        <h2 class="testimonials__h2">Testimonios</h2>
+        <div class="testimonials__wrapper">
+
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+            <div class="testimonials__testimony-container"><p class="testimonials__testimony-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatibus, hic aperiam perferendis in numquam similique natus minus maiores consectetur earum non eius modi molestias fuga quidem dicta asperiores tenetur.</p></div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__wrapper">
+
+            <div class="footer-item footer-item__social_network">
+                <div class="footer-item__social_network-img-container"><img class="footer-item__social_network-img" src="img/BANDERA/DSC_5111.JPG"></div>
+                <div class="footer-item__social_network-img-container"><img class="footer-item__social_network-img" src="img/BANDERA/DSC_5111.JPG"></div>
+                <div class="footer-item__social_network-img-container"><img class="footer-item__social_network-img" src="img/BANDERA/DSC_5111.JPG"></div>
+            </div>
+
+            <div class="footer-item footer-item__nav">
+                <ul class="footer__nav-list">
+                    <li class="header__nav-item"><a href="#">Inicio</a></li>
+                    <li class="header__nav-item" ><a href="#">Sobre Nosotros</a></li>
+                    <li class="header__nav-item" ><a href="#">El Campamento</a></li>
+                    <li class="header__nav-item" ><a href="#">Galería</a></li>
+                    <li class="header__nav-item" ><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item footer-item__legal"><a href="#">Aviso Legal</a></div>
+
+            <div class="footer-item footer-logo-container">
+                <img class="footer-logo" src="img/logo/logo_1.png">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
