@@ -231,8 +231,7 @@ p {
 /* -----FOOTER SECTION----- */
 
 .footer{
-    container-type: inline-size;
-    container-name: footer;
+    container: footer / inline-size;
 }
 
 .footer__wrapper {

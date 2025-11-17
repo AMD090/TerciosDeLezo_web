@@ -1,7 +1,6 @@
 /* -----MAIN PICTURE SECTION----- */
 .header__main_picture{
-    container-type: inline-size;
-    container-name: main_picture;
+    container: main_picture / inline-size;
 }
 
 .header__main_picture-container {
@@ -36,8 +35,7 @@
 /* -----MAIN SECTION----- */
 
 .main{
-    container-type: inline-size;
-    container-name: main;
+    container: main / inline-size;
     margin-top: 20px;
 }
 
@@ -162,8 +160,7 @@
 /* -----ACTIVITIES SECTION----- */
 
 .activities {
-    container-type: inline-size;
-    container-name: activities;
+    container: activities / inline-size;
 
 }
 
@@ -253,8 +250,7 @@
     margin: 50px 0;
     background-color: #0003;
     padding: 12px;
-    container-type: inline-size;
-    container-name: testimonials;
+    container: testimonials / inline-size;
 }
 
 .testimonials__wrapper{
