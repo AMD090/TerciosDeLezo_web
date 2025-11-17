@@ -8,7 +8,7 @@
     margin-top: 80px;
     width: 100%;
     height: auto;
-    overflow: hidden;
+    
 }
 
 .header__main_picture-item{
@@ -57,7 +57,7 @@
 
 .main__img-container{
     max-height: 500px;
-    overflow: hidden;
+    
 }
 
 .main__img {
@@ -75,7 +75,7 @@
     width: 100%;
     max-width: 1400px;
     margin: auto;
-    overflow: hidden;
+    
 }
 .objectives_values-img {
     width: 100%;
@@ -191,7 +191,7 @@
 .actividades__img-container{
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    
 }
 
 .actividades__img{
@@ -260,7 +260,7 @@
 .testimonials__wrapper{
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    
     overflow-x: auto;
     margin: 20px;
     gap:20px;
