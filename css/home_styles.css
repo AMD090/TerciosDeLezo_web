@@ -1,36 +1,4 @@
-/* -----MAIN PICTURE SECTION----- */
-.header__main_picture{
-    container: main_picture / inline-size;
-}
 
-.header__main_picture-container {
-    margin-top: 80px;
-    width: 100%;
-    height: auto;
-    
-}
-
-.header__main_picture-item{
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    z-index: -2;
-    display: block;
-}
-
-/* -----MAIN PICTURE QUERIES----- */
-@container main_picture (min-width: 880px){
-
-    .header__main_picture-container{
-        margin-top: 0;
-    }
-
-    .header__main_picture-item{
-        height: 100vh;
-    }
-}
-
-/* -----MAIN PICTURE ENDS----- */
 
 /* -----MAIN SECTION----- */
 
