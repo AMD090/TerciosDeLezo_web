@@ -5,6 +5,7 @@
 .main{
     container: main / inline-size;
     margin-top: 20px;
+    display: contents; 
 }
 
 .main__wrapper{
@@ -129,6 +130,7 @@
 
 .activities {
     container: activities / inline-size;
+    display: contents; 
 
 }
 
@@ -219,6 +221,7 @@
     background-color: #0003;
     padding: 12px;
     container: testimonials / inline-size;
+    display: contents; 
 }
 
 .testimonials__wrapper{

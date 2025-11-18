@@ -50,6 +50,7 @@ p {
 
 .header {
     container: header / inline-size;
+    display: contents; 
 }
 
 .header__wrapper{
@@ -214,6 +215,7 @@ p {
 .flag__wrapper{
     display: flex;
     flex-direction: column;
+    display: contents; 
 }
 
 .division_flag-item-red{
@@ -232,6 +234,7 @@ p {
 
 .footer{
     container: footer / inline-size;
+    display: contents; 
 }
 
 .footer__wrapper {
