@@ -48,10 +48,6 @@ p {
 
 /*----------HEADER SECTION----------*/
 
-.header {
-    container: header / inline-size;
-}
-
 .header__wrapper{
     position: fixed;
     height: 80px;
@@ -160,7 +156,7 @@ p {
 
 /*----------HEADER QUERIES----------*/
 
-@container header (min-width: 870px) {
+@media (min-width: 870px) {
 
     .header__wrapper{
         background: linear-gradient(to bottom, #000e, #0006);
@@ -230,9 +226,6 @@ p {
 
 /* -----FOOTER SECTION----- */
 
-.footer{
-    container: footer / inline-size;
-}
 
 .footer__wrapper {
     min-height: 40px;
@@ -317,7 +310,7 @@ p {
 
 /* -----FOOTER QUERIES----- */
 
-@container footer (min-width: 880px){
+@media (min-width: 870px) {
     .footer-logo-container{
         display: flex;
     }

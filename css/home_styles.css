@@ -3,7 +3,6 @@
 /* -----MAIN SECTION----- */
 
 .main{
-    container: main / inline-size;
     margin-top: 20px;
 }
 
@@ -75,7 +74,7 @@
 
 /* -----MAIN SECTION QUERIES----- */
 
-@container main (min-width: 880px){
+@media (min-width: 870px) {
 
     .main__wrapper{
         flex-direction: row;
@@ -129,10 +128,6 @@
 
 /* -----ACTIVITIES SECTION----- */
 
-.activities {
-    container: activities / inline-size;
-
-}
 
 .activities__h2{
     text-align: center;
@@ -171,7 +166,7 @@
 }
 
 /* -----ACTIVITIES QUERIES----- */
-@container activities (min-width: 880px){
+@media (min-width: 870px) {
     
     .activities__wrapper{
         width: 70%;
@@ -220,7 +215,6 @@
     margin: 50px 0;
     background-color: #0003;
     padding: 12px;
-    container: testimonials / inline-size;
 }
 
 .testimonials__wrapper{
@@ -249,7 +243,7 @@
 
 /* -----TESTIMONILAS QUERIES----- */
 
-@container testimonials (min-width: 880px){
+@media (min-width: 870px) {
     .testimonials__wrapper{
         min-height: 60vh;
     }
