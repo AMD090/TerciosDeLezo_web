@@ -50,7 +50,6 @@ p {
 
 .header {
     container: header / inline-size;
-    display: contents; 
 }
 
 .header__wrapper{
@@ -118,7 +117,7 @@ p {
     display: none;
     top: 80px;
     z-index: 50;
-    position: fixed;
+    position: absolute;
     height: calc(100vh - 80px);
     width: 100%;
     background-color: #3D4841;
@@ -215,7 +214,6 @@ p {
 .flag__wrapper{
     display: flex;
     flex-direction: column;
-    display: contents; 
 }
 
 .division_flag-item-red{
@@ -234,7 +232,6 @@ p {
 
 .footer{
     container: footer / inline-size;
-    display: contents; 
 }
 
 .footer__wrapper {
