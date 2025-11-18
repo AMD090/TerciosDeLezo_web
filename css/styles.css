@@ -198,6 +198,7 @@ p {
         flex-direction: row;
         justify-content: space-evenly;
         height: 100%;
+        padding: 0;
     }
 
     .header__main_video-container{
@@ -223,6 +224,7 @@ p {
 
     .header__main_picture{
         width: 100%;
+        width: auto;
     }
 }
 
