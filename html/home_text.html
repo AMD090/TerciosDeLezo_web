@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="icon" href="img/logo/6.png" type="image/png">
+
+    <script>
+        const stylesheets = ["../css/styles.css", "../css/home_text_styles.css"];
+
+        stylesheets.forEach(file => {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.href = file + "?v=" + Date.now();
+            document.head.appendChild(link);
+        });
+    </script>
+    <title>Inicio</title>
+
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__bar">
+                <div class="header__bar-logo">
+                    <div class="header__bar-logo-img-container"><img class="header__bar-logo-img" src="../img/logo/logo_1.png"></div>
+                    <div class="header__bar-logo-text-container">
+                        <p class="header__bar-logo-text">"El honor mi causa</p>
+                        <p class="header__bar-logo-text">El valor mi medio"</p>
+                    </div>
+                </div>
+                <input type="checkbox" class="header__checkbox" id="menu-checkbox">
+                <label class="header__nav-button" for="menu-checkbox">
+                    <p>Menú</p>
+                </label>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="../index.html">Inicio</a></li>
+                        <li class="header__nav-item"><a href="#">Sobre Nosotros</a></li>
+                        <li class="header__nav-item"><a href="#">El campamento</a></li>
+                        <li class="header__nav-item"><a href="#">Galería</a></li>
+                        <li class="header__nav-item"><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!--Foto Inicial-->
+        <div class="header__main_picture-container">
+            <img class="header__main_picture" src="../img/portadas/portada1.png">
+        </div>
+    </header>
+
+    <!--Bandera de España-->
+    <div class="flag">
+        <div class="flag__wrapper">
+            <div class="division_flag">
+                <div class="division_flag-item-red"></div>
+                <div class="division_flag-item-yellow"></div>
+                <div class="division_flag-item-red"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTENIDO DEL TEXTO-->
+    <div class="sections">
+        <div class="sections__wrapper">
+            <div class="sections__img-container"><img class="sections__img" src="../img/BANDERA/_DSC0057.jpg"></img></div>
+            <main class="sections__main">
+                <h1>Campamento Tercios de Lezo</h1>
+                <p>Han transcurrido 15 años desde que el Campamento TERCIOS DE LEZO elaboró su primer programa de actividades único en España, destinado a jóvenes de ambos sexos, desde los 10 años en adelante.</p>
+                <p>Nuestra prioridad es ampliar la formación personal de los jóvenes inculcándoles unos Objetivos y Valores que perdurarán a lo largo de su vida:</p>
+                <p>Liderazgo, Solidaridad, Responsabilidad, Compañerismo, Amistad, Honor, Lealtad, Amor a la Patria y a nuestra Bandera, Integridad, Disciplina, Espíritu de Sacrificio y de Servicio, Respeto a los demás y a uno mismo, Autoestima, Confianza en los demás, afán de Superación, Trabajo en Equipo, lucha contra el Acoso Escolar, ...</p>
+                <p>Lejos de engañar, lo que ofrecemos lo cumplimos. Son unas vacaciones totalmente diferentes, en las que nuestros Cadetes se olvidan del ordenador, tv, móvil, Play o similares. Viven experiencias inolvidables: vemos salir el Sol y la Luna casi todos los días. Nos cansamos, pasamos sueño, nos mojamos, nos llenamos de fango, sudamos, hacemos servicios de Imaginaria, realizamos ejercicios únicos y exclusivos, sufrimos las molestias de alguna ampolla que otra, … el tiempo libre, lo emplearemos para descansar.</p>
+                <p>La Valentía se hace evidente al enfrentarse a la altura de la plataforma de salto, a la oscuridad del conguito, a los obstáculos en la pista militar, a la disciplina y al trabajo diario superando en muchos casos un miedo inicial paralizante, por lo que el Cadete aprende a no retroceder ante la adversidad.</p>
+                <p>La Confianza es crucial, tanto en sus propias capacidades como en la figura del Instructor, cuya experiencia y dedicación brindan la seguridad necesaria para llevar a cabo los ejercicios programados. La Disciplina y el Compromiso son palpables en cada movimiento, siguiendo las indicaciones dadas con precisión y esfuerzo.</p>
+                <p>En definitiva, el paso de los Cadetes por el Campamento Tercios de Lezo no se limitará a la realización de una serie de ejercicios técnicos o tácticos, sino que servirá como una poderosa Escuela de Valores que potenciará el crecimiento personal de cada Cadete, dejando una huella imborrable en su Autoestima y preparándolos para enfrentarse con mayor seguridad y determinación a los desafíos que les depare el futuro ante cualquier ámbito profesional o personal que elijan.</p>
+            </main>
+            <div class="sections__img-container"><img class="sections__img" src="../img/BANDERA/_DSC0057.jpg"></img></div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer-item footer-item__social_network">
+                <div class="footer-item__social_network-img-container"><img class="footer-item__social_network-img" src="../img/BANDERA/DSC_5111.JPG"></div>
+                <div class="footer-item__social_network-img-container"><img class="footer-item__social_network-img" src="../img/BANDERA/DSC_5111.JPG"></div>
+                <div class="footer-item__social_network-img-container"><img class="footer-item__social_network-img" src="../img/BANDERA/DSC_5111.JPG"></div>
+            </div>
+            <div class="footer-item footer-item__nav">
+                <ul class="footer__nav-list">
+                    <li class="header__nav-item"><a href="../index.html">Inicio</a></li>
+                    <li class="header__nav-item"><a href="#">Sobre Nosotros</a></li>
+                    <li class="header__nav-item"><a href="#">El Campamento</a></li>
+                    <li class="header__nav-item"><a href="#">Galería</a></li>
+                    <li class="header__nav-item"><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-item footer-item__legal"><a href="#">Aviso Legal</a></div>
+            <div class="footer-item footer-logo-container"><img class="footer-logo" src="../img/logo/logo_1.png"></div>
+        </div>
+    </footer>
+</body>
