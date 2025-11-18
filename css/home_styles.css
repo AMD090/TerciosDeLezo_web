@@ -13,6 +13,7 @@
     margin: auto;
     max-width: 1400px;
     background-color: #0003;
+    border-radius: 20px;
 }
 
 .main__data-container {
@@ -22,14 +23,13 @@
 
 .main__img-container{
     max-height: 500px;
-
-    
 }
 
 .main__img {
     max-width: 100%;
     width: 850px;
     z-index: -1;
+    border-radius: 20px;
 }
 
 .main__objectives_values-container{
@@ -42,7 +42,7 @@
     width: 100%;
     max-width: 1400px;
     margin: auto;
-    
+    border-radius: 20px;
 }
 .objectives_values-img {
     width: 100%;
@@ -57,6 +57,7 @@
     margin: 10px;
     text-decoration: none;
     z-index: 10;
+    box-shadow: 0 0 9px #000f;
 }
 
 .main__data-description-link-item{
@@ -139,6 +140,7 @@
     margin-top: 50px;
     background-color: #0003;
     padding: 12px;
+    border-radius: 20px;
 }
 
 .activities__grid {
@@ -152,12 +154,13 @@
 
 .actividades__img-container{
     height: 100%;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .actividades__img{
     width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 9px #000f;
 }
 
 .actividades__img:is(:hover, :active){
@@ -229,7 +232,10 @@
 
 .testimonials__testimony-container{
     padding: 12px;
+    margin: 10px 0;
     background-color: #3D4841;
+    border-radius: 20px;
+    box-shadow: 0 0 9px #000f;
 }
 
 .testimonials__testimony-text{

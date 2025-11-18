@@ -203,8 +203,6 @@ p {
 
     .header__main_video-container {
         padding-top: 0;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 100vh;
         overflow: hidden;
@@ -214,14 +212,14 @@ p {
     .header__main_video {
         width: 100%;
         height: 100%;
-        object-fit: cover; /* asegura que ocupe todo el contenedor */
-        object-position: center; /* centra el video */
+        object-fit: cover;
+        object-position: center;
     }
 
     .header__main_picture-container{
         padding-top: 0;
         width: 100%;
-        height: 500px;
+        height: 50vh;
         overflow: hidden;
         z-index: -1;
     }
@@ -229,6 +227,7 @@ p {
     .header__main_picture{
         width: 100%;
         width: auto;
+        object-fit: cover;
     }
 }
 

@@ -40,13 +40,14 @@
     overflow: hidden;
     z-index: -1;
     padding: 20px;
-    background-color: #0003
+    background-color: #0003;
 }
 
 .sections__img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 /* -----SECTIONS QUERIES----- */
