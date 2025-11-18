@@ -201,17 +201,21 @@ p {
         padding: 0;
     }
 
-    .header__main_video-container{
+    .header__main_video-container {
         padding-top: 0;
-        height: 100vh;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100vh;
         overflow: hidden;
         z-index: -1;
     }
 
-    .header__main_video{
-        height: 100vh;
-        width: auto;
+    .header__main_video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* asegura que ocupe todo el contenedor */
+        object-position: center; /* centra el video */
     }
 
     .header__main_picture-container{
