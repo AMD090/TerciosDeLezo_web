@@ -16,11 +16,6 @@
     src: url("../fonts/Mea_Culpa/MeaCulpa-Regular.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "Algerian";
-    src: url("../fonts/Algerian/algerian-regular.ttf") format("truetype");
-}
-
 body {
     margin: 0;
     font-family: "Rubik", sans-serif;
@@ -89,7 +84,7 @@ p {
 }
 
 .header__bar-logo-text{
-    font-family: "Algerian";
+    font-family: "Rubik";
     font-size: 4vw;
     color: #f00;
 }
@@ -108,6 +103,7 @@ p {
     color: #1E2520;
     padding: 10px;
     border-radius: 20px;
+    z-index: 50;
 }
 
 .header__nav{
@@ -220,7 +216,7 @@ p {
     .header__main_picture-container{
         padding-top: 0;
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         overflow: hidden;
         z-index: -1;
     }

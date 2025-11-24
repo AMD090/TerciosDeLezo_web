@@ -160,7 +160,6 @@
 .actividades__img{
     width: 100%;
     border-radius: 20px;
-    box-shadow: 0 0 9px #000f;
 }
 
 .actividades__img:is(:hover, :active){
