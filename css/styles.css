@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     color: #A7B4AC;
-    text-wrap: pretty;
+    text-wrap: balance;
+    word-spacing: 0.05em;
 }
 
 @font-face {
@@ -14,6 +15,11 @@
 @font-face {
     font-family: "Mea_Culpa";
     src: url("../fonts/Mea_Culpa/MeaCulpa-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Stencil";
+    src: url("../fonts/Big_Shoulders_Stencil/BigShouldersStencil.ttf") format("truetype");
 }
 
 body {
@@ -37,7 +43,9 @@ h1, h2 {
 
 p {
     text-align: justify;
-    text-wrap: balance;
+    text-wrap: pretty;
+    word-wrap: break-word; 
+    white-space: normal; 
 }
 
 
@@ -84,7 +92,7 @@ p {
 }
 
 .header__bar-logo-text{
-    font-family: "Rubik";
+    font-family: "Stencil";
     font-size: 4vw;
     color: #f00;
 }
@@ -277,14 +285,18 @@ p {
 }
 
 .footer-item__social_network-img-container{
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
     overflow: hidden;
-    border-radius: 32px;
+    border-radius: 25px;
 }
 
 .footer-item__social_network-img{
     width: 100%;
+}
+
+.footer-item__social_network-img-container:is(:hover, :active){
+    border: 2px solid #fff ;
 }
 
 .footer-logo-container{

@@ -240,6 +240,27 @@
 .testimonials__testimony-text{
     width: 30vh;
     max-width: 300px;
+    margin-top: 20px;
+}
+
+.testimonials__testimony-text-autor{
+    width: 30vh;
+    max-width: 300px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #758A7D;
+    text-align: justify;
+    text-wrap: pretty;
+    word-wrap: break-word; 
+    white-space: normal; 
+}
+
+.testimonials__testimony-text-autor strong{
+    color: #758A7D;
+    text-align: justify;
+    text-wrap: pretty;
+    word-wrap: break-word; 
+    white-space: normal; 
 }
 
 .testimonials__h2 {
