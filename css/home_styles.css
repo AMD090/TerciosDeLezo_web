@@ -46,6 +46,7 @@
 }
 .objectives_values-img {
     width: 100%;
+    border-radius: 20px;
 }
 .main__data-description-link{
     display: flex;
@@ -214,68 +215,100 @@
 /* -----TESTIMONILAS SECTION----- */
 
 .testimonials{
-    margin: 50px 0;
     background-color: #0003;
-    padding: 12px;
 }
 
-.testimonials__wrapper{
-    display: flex;
-    flex-direction: row;
-    
-    overflow-x: auto;
-    margin: 20px;
-    gap:20px;
-    min-height: 30vh;
-}
-
-.testimonials__testimony-container{
-    padding: 12px;
-    margin: 10px 0;
-    background-color: #3D4841;
-    border-radius: 20px;
-    box-shadow: 0 0 9px #000f;
-}
-
-.testimonials__testimony-text{
-    width: 30vh;
-    max-width: 300px;
-    margin-top: 20px;
-}
-
-.testimonials__testimony-text-autor{
-    width: 30vh;
-    max-width: 300px;
-    margin-top: 20px;
-    font-size: 0.85rem;
-    color: #758A7D;
-    text-align: justify;
-    text-wrap: pretty;
-    word-wrap: break-word; 
-    white-space: normal; 
-}
-
-.testimonials__testimony-text-autor strong{
-    color: #758A7D;
-    text-align: justify;
-    text-wrap: pretty;
-    word-wrap: break-word; 
-    white-space: normal; 
-}
-
-.testimonials__h2 {
+.testimonials__h2{
     text-align: center;
 }
 
+/* Ocultar radios */
+input[name="slider"] {
+    display: none;
+}
+
+.testimonials__carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Carrusel horizontal */
+.testimonials__wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Cada slide ocupa 100% */
+.testimonials__slide {
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 60px;
+}
+
+/* Testimonios (tu estilo puede quedar igual) */
+.testimonials__testimony-container {
+    background: #0003;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px #000;
+}
+
+.testimonials__testimony-container p{
+    margin-top: 20px;
+}
+
+/* Flechas */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #0003;
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+/* --- Lógica de movimiento del carrusel --- */
+
+/* Slide 1 seleccionado */
+#slide1:checked ~ .testimonials__carousel .testimonials__wrapper {
+    transform: translateX(0);
+}
+
+/* Slide 2 seleccionado */
+#slide2:checked ~ .testimonials__carousel .testimonials__wrapper {
+    transform: translateX(-100%);
+}
+
+/* Ocultar flecha izquierda cuando estamos en el primer slide */
+#slide1:checked ~ .testimonials__carousel .arrow.left {
+    display: none;
+}
+
+/* Ocultar flecha derecha cuando estamos en el último slide */
+#slide2:checked ~ .testimonials__carousel .arrow.right {
+    display: none;
+}
+
 /* -----TESTIMONILAS QUERIES----- */
-
-@media (min-width: 870px) {
-    .testimonials__wrapper{
-        min-height: 60vh;
-    }
-
-    .testimonials__h2{
-        font-size: 2rem;
+@media (max-width: 768px) {
+    .testimonials__slide {
+        grid-template-columns: 1fr;
     }
 }
 
