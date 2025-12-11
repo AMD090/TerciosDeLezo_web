@@ -1,0 +1,139 @@
+p{
+    font-size: 1rem;
+}
+
+@media (min-width: 870px) {
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+/*----------SECTION PICTURES----------*/
+
+.section__img-container{
+    width: 250px;
+    display: none;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.section__img{
+    width: 100%;
+    border-radius: 20px;
+    display: none;
+}
+
+.instructors__img-container{
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+.instructors__img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*----------SECTION PICTURES QUERIES----------*/
+
+@media (min-width: 870px) {
+    .section__img-container{
+        display: block;
+    }
+
+    .section__img{
+        display: block;
+    }
+
+    .instructors__img-container{
+    width: 100%;
+    max-width: 1000px;
+}
+}
+
+/*----------SECTION PICTURES ENDS----------*/
+
+
+/*----------MAIN----------*/
+
+.main{
+    margin: 20px;
+}
+
+.main h1{
+    text-align: center;
+}
+
+
+/*----------MAIN QUERIES----------*/
+
+
+
+/*----------MAIN ENDS----------*/
+
+
+/*----------PROVENANCES----------*/
+
+.provenances{
+    background-color: #0003;
+}
+
+.provenances h2{
+    text-align: center;
+}
+
+.provenances__wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.provenances__list{
+    margin-left: 20px;
+}
+
+.provenances__list-item{
+    margin-top: 10px;
+}
+
+/*----------PROVENANCES ENDS----------*/
+
+
+/*----------INSTRUCTORS----------*/
+
+.instructors{
+    margin: 20px;
+}
+
+/*----------INSTRUCTORS ENDS----------*/
+
+
+/*----------CAMP----------*/
+
+.camp{
+    background-color: #0003;
+}
+
+.camp__wrapper p{
+    margin: 20px;
+
+}
+
+/*----------CAMP ENDS----------*/
+
+
+/*----------FIGHT----------*/
+
+.fight__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fight__wrapper p {
+    margin: 20px;
+    max-width: 700px;
+}
+
+/*----------FIGHT ENDS----------*/

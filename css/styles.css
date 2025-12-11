@@ -26,6 +26,9 @@ body {
     margin: 0;
     font-family: "Rubik", sans-serif;
     background-color: #3D4841;
+
+    max-width: 2000px;
+    margin: auto;
 }
 
 div, ul, nav, header, footer, a, li, label {
@@ -39,6 +42,10 @@ strong {
 
 h1, h2 {
     color: #758A7D;
+}
+
+h1{
+    text-align: center;
 }
 
 p {
@@ -56,6 +63,8 @@ p {
     height: 80px;
     width: 100%;
     background-color: #1E2520;
+
+    max-width: 2000px;
 
     display: flex;
     flex-direction: row;

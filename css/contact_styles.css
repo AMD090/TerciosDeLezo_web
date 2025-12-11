@@ -1,0 +1,132 @@
+/*----------MAIN----------*/
+
+.main{
+    background-color: #0003;
+}
+
+.main__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.main__wrapper p, h2, h1{
+    text-align: center;
+}
+
+.main__section{
+    margin: 10px 0;
+}
+
+.location__img-container{
+    overflow: hidden;
+    width: calc(100% - 40px);
+    margin: auto 20px;
+}
+
+.location__img{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #000;
+}
+
+/*----------MAIN QUERIES----------*/
+
+@media (min-width: 870px) {
+    .location__img-container{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+/*----------MAIN ENDS----------*/
+
+
+/*----------FORM SECTION----------*/
+
+.form_section{
+    padding: 20px;
+}
+
+
+.contact_form-fieldset{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #0008;
+}
+
+.contact_form-legend{
+    font-family: "Rubik";
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.contact_form-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form-input-label p{
+    font-family: "Rubik";
+    padding-left: 35px;
+}
+
+.contact_form-input{
+    font-family: "Rubik";
+    margin: auto;
+    border-radius: 20px;
+    height: 35px;
+    width: calc(100% - 40px);
+    margin: 20px;
+    padding: 0 35px;
+    background-color: #0003;
+    color: #758A7D;
+    border: 2px solid #0008;
+}
+
+.contact_form-textarea{
+    font-family: "Rubik";
+    margin: 20px;
+    min-width: calc(100% - 40px);
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    padding: 0 35px;
+    background-color: #0003;
+    color: #758A7D;
+    border: 2px solid #0008;
+    border-radius: 20px;
+}
+
+.contact_form-submit{
+    border-radius: 20px;
+    height: 35px;
+    width: 100% ;
+    background-color: #0008;
+    color: #758A7D;
+    border: 2px solid #0008;
+}
+
+.contact_form-submit:is(:hover, :active){
+    border: 2px solid #fff;
+}
+
+/*----------FORM QUERIES----------*/
+
+@media (min-width: 870px) {
+
+    .form_section-h2{
+        text-decoration: underline;
+    }
+
+    .contact_form{
+        margin: auto;
+        max-width: 800px;
+    }
+}
+
+/*----------FORM ENDS----------*/

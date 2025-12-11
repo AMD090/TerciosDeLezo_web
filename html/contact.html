@@ -11,7 +11,7 @@
     <link rel="icon" href="img/logo/6.png" type="image/png">
 
     <script>
-        const stylesheets = ["../css/styles.css", "../css/home_text_styles.css"];
+        const stylesheets = ["../css/styles.css", "../css/contact_styles.css"];
 
         stylesheets.forEach(file => {
             const link = document.createElement("link");
@@ -20,7 +20,7 @@
             document.head.appendChild(link);
         });
     </script>
-    <title>Inicio</title>
+    <title>Contacto</title>
 
 </head>
 <body>
@@ -68,36 +68,72 @@
         </div>
     </div>
 
-    <!--CONTENIDO DEL TEXTO-->
-    <div class="sections">
-        <div class="sections__wrapper">
-            <main class="sections__main">
-                <h1>Campamento Tercios de Lezo</h1>
-                <div class="main__section">
-                    <div class="main_text-container">
-                        <p>Han transcurrido 15 años desde que el Campamento TERCIOS DE LEZO elaboró su primer programa de actividades único en España, destinado a jóvenes de ambos sexos, desde los 10 años en adelante.</p>
-                        <p>Nuestra prioridad es ampliar la formación personal de los jóvenes inculcándoles unos Objetivos y Valores que perdurarán a lo largo de su vida:</p>
-                        <p>Liderazgo, Solidaridad, Responsabilidad, Compañerismo, Amistad, Honor, Lealtad, Amor a la Patria y a nuestra Bandera, Integridad, Disciplina, Espíritu de Sacrificio y de Servicio, Respeto a los demás y a uno mismo, Autoestima, Confianza en los demás, afán de Superación, Trabajo en Equipo, lucha contra el Acoso Escolar, ...</p>
-                    </div>
-                    <div class="main__img-container">
-                        <img src="../img/FOTOS PARA PONER/_STG9946.JPG">
-                    </div>
-                </div>
-                <div class="main__section main__section-second">
-                    <div class="main__img-container">
-                        <img src="../img/FOTOS PARA PONER/_STG0296.JPG">
-                    </div>
-                    <div class="main_text-container">
-                        <p>Lejos de engañar, lo que ofrecemos lo cumplimos. Son unas vacaciones totalmente diferentes, en las que nuestros Cadetes se olvidan del ordenador, tv, móvil, Play o similares. Viven experiencias inolvidables: vemos salir el Sol y la Luna casi todos los días. Nos cansamos, pasamos sueño, nos mojamos, nos llenamos de fango, sudamos, hacemos servicios de Imaginaria, realizamos ejercicios únicos y exclusivos, sufrimos las molestias de alguna ampolla que otra, … el tiempo libre, lo emplearemos para descansar.</p>
-                        <p>La Valentía se hace evidente al enfrentarse a la altura de la plataforma de salto, a la oscuridad del conguito, a los obstáculos en la pista militar, a la disciplina y al trabajo diario superando en muchos casos un miedo inicial paralizante, por lo que el Cadete aprende a no retroceder ante la adversidad.</p>
-                        <p>La Confianza es crucial, tanto en sus propias capacidades como en la figura del Instructor, cuya experiencia y dedicación brindan la seguridad necesaria para llevar a cabo los ejercicios programados. La Disciplina y el Compromiso son palpables en cada movimiento, siguiendo las indicaciones dadas con precisión y esfuerzo.</p>
-                        <p>En definitiva, el paso de los Cadetes por el Campamento Tercios de Lezo no se limitará a la realización de una serie de ejercicios técnicos o tácticos, sino que servirá como una poderosa Escuela de Valores que potenciará el crecimiento personal de cada Cadete, dejando una huella imborrable en su Autoestima y preparándolos para enfrentarse con mayor seguridad y determinación a los desafíos que les depare el futuro ante cualquier ámbito profesional o personal que elijan.</p>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
 
+    <main class="main">
+        <div class="main__wrapper">
+            <h1>Contacto</h1>
+
+            <div class="main__phone_number main__section">
+                <h2>Telefono</h2>
+                <p>Llamadas, WhatsApp, Telegram</p>
+                <p>+34 634 34 20 00</p>
+                <p>+34 634 30 56 56</p>
+            </div>
+            
+            <div class="main__email main__section">
+                <h2>Correo</h2>
+                <p>info@campamentoterciosdelezo.com</p>
+            </div>
+
+            <div class="main__social_network main__section">
+                <h2>Redes Sociales</h2>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>Tik-Tok</p>
+                <p>Telegram</p>
+            </div>
+            <div class="main__location main__section">
+                <h2>Ubicación</h2>
+                <div class="location__img-container"><img class="location__img" src="/img/objetivos_y_valores.png"></div>
+            </div>
+        </div>
+    </main>
+
+    <section class="form_section">
+        <h2 class="form_section-h2">Formulario de contacto</h2>
+        <form class="contact_form">
+            <fieldset class="contact_form-fieldset">
+                <legend class="contact_form-legend">Información de contacto</legend>
+                <div class="contact_form-input-container">
+                    <label class="contact_form-input-label">
+                        <p>Email</p>
+                        <input class="contact_form-input" type="email" placeholder="ejemplo@gmail.com">
+                    </label>
+                    <label class="contact_form-input-label">
+                        <p>Nombre</p>
+                        <input class="contact_form-input" type="text" placeholder="Alberto">
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset class="contact_form-fieldset">
+                <legend class="contact_form-legend">Mensaje</legend>
+                <div class="contact_form-input-container">
+                    <label class="contact_form-input-label">
+                        <p>Asunto</p>
+                        <input class="contact_form-input" type="text" placeholder="Deseo asistir al proximo campamento Tercios de Lezo">
+                    </label>
+                    <label class="contact_form-input-label">
+                        <p>Mensaje</p>
+                        <textarea class="contact_form-textarea" maxlength="200"></textarea>
+                    </label>
+                </div>
+            </fieldset>
+
+            <input class="contact_form-submit" type="submit">
+        </form>
+
+    </section>
 
     <footer class="footer">
         <div class="footer__wrapper">

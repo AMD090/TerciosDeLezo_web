@@ -305,10 +305,50 @@ input[name="slider"] {
     display: none;
 }
 
+.testimonials__more-testimonials{
+    margin: auto;
+    width: 30%;
+    height: 120px;
+}
+
+.testimonials__more-testimonials-h3{
+    text-align: center;
+}
+
+.testimonials__more-testimonials-link{
+    display: flex;
+    justify-content: center;
+    background-color: #0003;
+    border-radius: 50px;
+    max-height: 100px;
+    min-height: 50px;
+    margin: 10px;
+    text-decoration: none;
+    z-index: 10;
+    box-shadow: 0 0 9px #000f;
+}
+
+.testimonials__more-testimonials-link-item{
+    text-align: center;
+}
+
+.testimonials__more-testimonials-link-item p{
+    color: #758A7D;
+    padding: 20px;
+}
+
+.testimonials__more-testimonials-link:is(:hover, :active){
+    outline: 2px solid #fff;
+}
+
 /* -----TESTIMONILAS QUERIES----- */
 @media (max-width: 768px) {
     .testimonials__slide {
         grid-template-columns: 1fr;
+    }
+
+    .testimonials__more-testimonials{
+        width: 100%;
     }
 }
 
