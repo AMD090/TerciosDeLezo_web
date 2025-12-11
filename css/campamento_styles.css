@@ -50,8 +50,7 @@ h2{
     }
 
     .from_10_to_17_camp__goals-img-container{
-        margin: auto;
-        width: calc(50% - 40px);
+        display: none;
     }
 
     .more_than_17_camp-img-container{
@@ -108,13 +107,13 @@ h2{
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    gap: 20px;
 }
 
 .from_10_to_17_camp__goals-list{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: auto;
 }
 
 .from_10_to_17_camp__goals-list-item{
@@ -133,6 +132,10 @@ h2{
 
 
 /*----------MORE THAN 17 SECTION----------*/
+
+.more_than_17_camp{
+    background-color: #0003;
+}
 
 .more_than_17_camp__wrapper{
     margin: 20px;
@@ -157,7 +160,6 @@ h2{
 /*----------MORE INFORMATION/DECALOGO SECTION----------*/
 
 .decalogo_cadete, .more_info{
-    background-color: #0003;
     height: 150px;
 }
 
@@ -197,3 +199,28 @@ h2{
 }
 
 /*----------MORE INFORMATION/DECALOGO ENDS----------*/
+
+
+/*----------CAMPAMENTOS QUERIES----------*/
+@media (min-width: 870px) {
+    .campamentos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .from_10_to_17_camp{
+        width: 50%;
+        border-bottom: 2px solid #0003;
+        border-top: 2px solid #0003;
+    }
+
+    .more_than_17_camp{
+        width: 50%;
+        border-left: 2px solid #0003;
+        border-bottom: 2px solid #0003;
+        border-top: 2px solid #0003;
+    }
+
+    
+
+}

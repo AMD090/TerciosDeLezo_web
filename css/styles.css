@@ -45,6 +45,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h1{
+    margin-bottom: 50px;
+}
+
 
 p {
     text-align: justify;
