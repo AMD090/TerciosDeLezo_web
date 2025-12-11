@@ -86,6 +86,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 
 .header__bar-logo-img-container{

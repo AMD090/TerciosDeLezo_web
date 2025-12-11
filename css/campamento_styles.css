@@ -65,7 +65,7 @@ h2{
 /*----------MAIN----------*/
 
 .main{
-    margin: 20px;
+    margin: 20px 300px;
 }
 
 .main__wrapper p{
@@ -141,9 +141,17 @@ h2{
     margin: 20px;
 }
 
+.more_than_17_camp__time h3{
+    margin-top: 20px;
+}
+
 .more_than_17_camp__time{
     display: flex;
     flex-direction: column;
+}
+
+.more_than_17_camp-description{
+    margin-top: 20px;
 }
 
 .more_than_17_camp__time p{
