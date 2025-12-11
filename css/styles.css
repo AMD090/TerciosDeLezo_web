@@ -40,13 +40,11 @@ strong {
     color: #888;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #758A7D;
-}
-
-h1{
     text-align: center;
 }
+
 
 p {
     text-align: justify;

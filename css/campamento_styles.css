@@ -1,0 +1,199 @@
+h2{
+    text-decoration: underline;
+}
+
+
+/*----------PICTURES----------*/
+
+.from_10_to_17_camp-img-container{
+    margin: auto;
+    width: calc(100% - 40px);
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.from_10_to_17_camp-img{
+    width: 100%;
+}
+
+.from_10_to_17_camp__goals-img-container{
+    margin: auto;
+    width: calc(100% - 40px);
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.from_10_to_17_camp__goals-img{
+    width: 100%;
+}
+
+
+.more_than_17_camp-img-container{
+    margin: auto;
+    width: calc(100% - 40px);
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.more_than_17_camp-img{
+    width: 100%;
+}
+/*----------PICTURES QUERIES----------*/
+
+@media (min-width: 870px) {
+    .from_10_to_17_camp-img-container{
+        margin: auto;
+        width: calc(50% - 40px);
+    }
+
+    .from_10_to_17_camp__goals-img-container{
+        margin: auto;
+        width: calc(50% - 40px);
+    }
+
+    .more_than_17_camp-img-container{
+    margin: auto;
+        width: calc(50% - 40px);
+}
+}
+
+/*----------PICTURES ENDS----------*/
+
+
+/*----------MAIN----------*/
+
+.main{
+    margin: 20px;
+}
+
+.main__wrapper p{
+    margin-bottom: 10px;
+}
+
+/*----------MAIN ENDS----------*/
+
+
+/*----------10 TO 17 SECTION----------*/
+
+.from_10_to_17_camp{
+    background-color: #0003;
+}
+
+.from_10_to_17_camp__wrapper{
+    margin: 20px;
+}
+
+.from_10_to_17_camp__time{
+    display: flex;
+    flex-direction: column;
+}
+
+.from_10_to_17_camp__time h3{
+    margin-top: 20px;
+}
+
+.from_10_to_17_camp__time p{
+    text-align: center;
+}
+
+.from_10_to_17_camp__goals h3{
+    margin-top: 20px;
+}
+
+.from_10_to_17_camp__goals-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.from_10_to_17_camp__goals-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.from_10_to_17_camp__goals-list-item{
+    padding: 3px 0;
+}
+
+/*----------10 TO 17 QUERIES----------*/
+
+@media (min-width: 870px) {
+    .from_10_to_17_camp__goals-flex{
+        flex-direction: row;
+    }
+}
+
+/*----------10 TO 17 ENDS----------*/
+
+
+/*----------MORE THAN 17 SECTION----------*/
+
+.more_than_17_camp__wrapper{
+    margin: 20px;
+}
+
+.more_than_17_camp__time{
+    display: flex;
+    flex-direction: column;
+}
+
+.more_than_17_camp__time p{
+    text-align: center;
+}
+
+.more_than_17_camp__time h3{
+    margin-top: 20px;
+}
+
+/*----------MORE THAN 17 ENDS----------*/
+
+
+/*----------MORE INFORMATION/DECALOGO SECTION----------*/
+
+.decalogo_cadete, .more_info{
+    background-color: #0003;
+    height: 150px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    background-color: #0003;
+    border-radius: 50px;
+    max-height: 100px;
+    min-height: 50px;
+    margin: 20px;
+    text-decoration: none;
+    z-index: 10;
+    box-shadow: 0 0 9px #000f;
+}
+
+.link-item{
+    text-align: center;
+}
+
+.link-item p{
+    color: #758A7D;
+    padding: 20px;
+}
+
+.link:is(:hover, :active){
+    outline: 2px solid #fff;
+}
+
+/*----------MORE INFORMATION/DECALOGO QUERIES----------*/
+
+@media (min-width: 870px) {
+    .link{
+        margin: 20px auto;
+        width: 30%;
+    }
+}
+
+/*----------MORE INFORMATION/DECALOGO ENDS----------*/
