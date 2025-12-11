@@ -45,8 +45,8 @@ h2{
 
 @media (min-width: 870px) {
     .from_10_to_17_camp-img-container{
-        margin: 30px auto;
-        width: calc(50% - 40px);
+        margin: 30px 100px;
+        width: calc(100% - 200px);
     }
 
     .from_10_to_17_camp__goals-img-container{
@@ -54,8 +54,8 @@ h2{
     }
 
     .more_than_17_camp-img-container{
-        margin: 30px auto;
-        width: calc(50% - 40px);
+        margin: 30px 100px;
+        width: calc(100% - 200px);
     }
 }
 
