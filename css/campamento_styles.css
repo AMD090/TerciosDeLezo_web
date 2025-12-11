@@ -45,7 +45,7 @@ h2{
 
 @media (min-width: 870px) {
     .from_10_to_17_camp-img-container{
-        margin: auto;
+        margin: 30px auto;
         width: calc(50% - 40px);
     }
 
@@ -54,9 +54,9 @@ h2{
     }
 
     .more_than_17_camp-img-container{
-    margin: auto;
+        margin: 30px auto;
         width: calc(50% - 40px);
-}
+    }
 }
 
 /*----------PICTURES ENDS----------*/
@@ -92,6 +92,7 @@ h2{
 
 .from_10_to_17_camp__time h3{
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .from_10_to_17_camp__time p{
@@ -120,12 +121,31 @@ h2{
     padding: 3px 0;
 }
 
+.from_10_to_17_camp__activities h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
 /*----------10 TO 17 QUERIES----------*/
 
 @media (min-width: 870px) {
     .from_10_to_17_camp__goals-flex{
         flex-direction: row;
     }
+
+    .from_10_to_17_camp__activities p{
+        margin: 0 100px;
+    }
+
+
+    .from_10_to_17_camp__goals-list-item p{
+        margin: 2px 100px;
+    }
+
+    .from_10_to_17_camp__goals-list{
+        list-style: none;
+    }
+
 }
 
 /*----------10 TO 17 ENDS----------*/
@@ -143,6 +163,7 @@ h2{
 
 .more_than_17_camp__time h3{
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .more_than_17_camp__time{
@@ -160,10 +181,24 @@ h2{
 
 .more_than_17_camp__time h3{
     margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.more_than_17_camp-description h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .more_than_17_camp-description p{
     margin-bottom: 10px;
+}
+
+/*----------MORE THAN 17 QUERIES----------*/
+
+@media (min-width: 870px) {
+    .more_than_17_camp-description p{
+        margin: 10px 100px;
+    }
 }
 
 /*----------MORE THAN 17 ENDS----------*/
