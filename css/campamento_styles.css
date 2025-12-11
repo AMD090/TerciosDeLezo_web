@@ -65,7 +65,7 @@ h2{
 /*----------MAIN----------*/
 
 .main{
-    margin: 20px 300px;
+    margin: 20px;
 }
 
 .main__wrapper p{
@@ -162,12 +162,17 @@ h2{
     margin-top: 20px;
 }
 
+.more_than_17_camp-description p{
+    margin-bottom: 10px;
+}
+
 /*----------MORE THAN 17 ENDS----------*/
 
 
 /*----------MORE INFORMATION/DECALOGO SECTION----------*/
 
 .decalogo_cadete, .more_info{
+    margin-top: 25px;
     height: 150px;
 }
 
@@ -211,6 +216,11 @@ h2{
 
 /*----------CAMPAMENTOS QUERIES----------*/
 @media (min-width: 870px) {
+
+    .main{
+        margin: 20px 300px;
+    }
+
     .campamentos{
         display: flex;
         flex-direction: row;
