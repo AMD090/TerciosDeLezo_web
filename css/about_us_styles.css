@@ -58,14 +58,14 @@ p{
     text-align: center;
 }
 
-.main__wrapper p{
-    margin: 0 300px;
-}
-
 
 /*----------MAIN QUERIES----------*/
 
-
+@media (min-width: 870px) {
+    .main__wrapper p{
+        margin: 0 300px;
+    }
+}
 
 /*----------MAIN ENDS----------*/
 
@@ -104,8 +104,11 @@ p{
     margin: 20px;
 }
 
-.instructors__wrapper{
-    margin: 0 300px;
+
+@media (min-width: 870px) {
+    .instructors__wrapper{
+        margin: 0 300px;
+    }
 }
 
 /*----------INSTRUCTORS ENDS----------*/
@@ -118,10 +121,15 @@ p{
 }
 
 .camp__wrapper p{
-    margin: 20px 300px;
+    margin: 20px;
 
 }
 
+@media (min-width: 870px) {
+    .camp__wrapper p{
+        margin: 20px 300px;
+    }
+}
 /*----------CAMP ENDS----------*/
 
 
@@ -134,8 +142,14 @@ p{
 }
 
 .fight__wrapper p {
-    margin: 20px 300px;
+    margin: 20px;
     max-width: 700px;
 }
 
+@media (min-width: 870px) {
+    .fight__wrapper p {
+        margin: 20px 300px;
+        max-width: 700px;
+    }
+}
 /*----------FIGHT ENDS----------*/
