@@ -243,7 +243,6 @@ p {
 
     .header__main_picture{
         width: 100%;
-        width: auto;
         object-fit: cover;
     }
 }
