@@ -126,6 +126,11 @@ h2{
     margin-bottom: 15px;
 }
 
+.from_10_to_17_camp__material h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
 /*----------10 TO 17 QUERIES----------*/
 
 @media (min-width: 870px) {
@@ -137,6 +142,9 @@ h2{
         margin: 0 100px;
     }
 
+    .from_10_to_17_camp__material p{
+        margin: 0 100px;
+    }
 
     .from_10_to_17_camp__goals-list-item p{
         margin: 2px 100px;

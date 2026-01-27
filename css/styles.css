@@ -62,7 +62,7 @@ p {
 
 .header__wrapper{
     position: fixed;
-    height: 80px;
+    height: 100px;
     width: 100%;
     background-color: #1E2520;
 
@@ -128,7 +128,7 @@ p {
 
 .header__nav{
     display: none;
-    top: 80px;
+    top: 100px;
     z-index: 50;
     position: absolute;
     height: calc(100vh - 80px);
@@ -156,7 +156,7 @@ p {
 }
 
 .header__main_video-container{
-    padding-top: 80px;
+    padding-top: 100px;
     width: 100%;
     overflow: hidden;
     z-index: -1;
@@ -167,7 +167,7 @@ p {
 }
 
 .header__main_picture-container{
-    padding-top: 80px;
+    padding-top: 100px;
     width: 100%;
     overflow: hidden;
     z-index: -1;
@@ -206,7 +206,7 @@ p {
     }
 
     .header__bar-logo-text{
-        font-size: 16px;
+        font-size: 1.5rem;
     }
 
     .header__nav-list{

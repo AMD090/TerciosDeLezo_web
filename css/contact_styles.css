@@ -40,6 +40,11 @@ h1{
         width: 50%;
         margin: auto;
     }
+
+    .main__asociation{
+        max-width: 700px;
+        margin: auto;
+    }
 }
 
 /*----------MAIN ENDS----------*/
