@@ -21,16 +21,13 @@ h1{
     margin: 10px 0;
 }
 
-.location__img-container{
-    overflow: hidden;
-    width: calc(100% - 40px);
-    margin: auto 20px;
+.location__container{
+    text-align: center;
 }
 
-.location__img{
-    width: 100%;
+.location__map{
+    width: 50%;
     border-radius: 20px;
-    border: 2px solid #000;
 }
 
 /*----------MAIN QUERIES----------*/

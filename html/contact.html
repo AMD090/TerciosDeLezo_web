@@ -98,24 +98,28 @@
             </div>
             <div class="main__location main__section">
                 <h2>Ubicación</h2>
-                <div class="location__img-container"><img class="location__img" src="../img/contact/1.jpg"></div>
+                <div class="location__container">
+                    <iframe class="location__map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3009.61299965179!2d-3.6051283960567355!3d41.03372199648406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDAyJzA0LjQiTiAzwrAzNicxMC4xIlc!5e0!3m2!1ses!2ses!4v1770372637932!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p>Estamos a una hora de Madrid.</p>
+                <p>Transporte público desde Madrid (Plaza de Castilla) a Piñuecar.</p>
             </div>
         </div>
     </main>
 
     <section class="form_section">
         <h2 class="form_section-h2">Formulario de contacto</h2>
-        <form class="contact_form">
+        <form action="" method="POST" class="contact_form">
             <fieldset class="contact_form-fieldset">
                 <legend class="contact_form-legend">Información de contacto</legend>
                 <div class="contact_form-input-container">
                     <label class="contact_form-input-label">
                         <p>Email</p>
-                        <input class="contact_form-input" type="email" placeholder="ejemplo@gmail.com">
+                        <input class="contact_form-input" type="email" placeholder="ejemplo@gmail.com" name="email" required>
                     </label>
                     <label class="contact_form-input-label">
                         <p>Nombre</p>
-                        <input class="contact_form-input" type="text" placeholder="Alberto">
+                        <input class="contact_form-input" type="text" placeholder="Ejemplo Ejemplo Ejemplo" name="name" required>
                     </label>
                 </div>
             </fieldset>
@@ -125,16 +129,18 @@
                 <div class="contact_form-input-container">
                     <label class="contact_form-input-label">
                         <p>Asunto</p>
-                        <input class="contact_form-input" type="text" placeholder="Deseo asistir al proximo campamento Tercios de Lezo">
+                        <input class="contact_form-input" type="text" placeholder="Deseo asistir al proximo campamento Tercios de Lezo" name="subject" required>
                     </label>
                     <label class="contact_form-input-label">
                         <p>Mensaje</p>
-                        <textarea class="contact_form-textarea" maxlength="200"></textarea>
+                        <textarea class="contact_form-textarea" maxlength="200" name="comments"></textarea>
                     </label>
                 </div>
             </fieldset>
 
             <input class="contact_form-submit" type="submit">
+            
+            <input type="hidden" name="_next" value="">
         </form>
 
     </section>

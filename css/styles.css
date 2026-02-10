@@ -55,6 +55,7 @@ p {
     text-wrap: pretty;
     word-wrap: break-word; 
     white-space: normal; 
+    font-size: 1.2rem;
 }
 
 
