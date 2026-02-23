@@ -1,0 +1,119 @@
+p {
+    margin: auto;
+}
+
+/*----------ESTILOS BASE (MÓVIL)----------*/
+
+.main, .texto_central {
+    margin-top: 20px;
+}
+
+.main__wrapper, .texto_central__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1400px;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.main__wrapper h1 {
+    text-align: center; 
+}
+
+.main__img-container, .texto_central__img-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+}
+
+.main__img, .texto_central__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/*----------QUERIES DE ESCRITORIO----------*/
+
+@media (min-width: 870px) {
+    
+    .main {
+        margin-top: 60px;
+        margin-bottom: 0; 
+    }
+    .texto_central {
+        margin-top: 0;
+    }
+
+    .main__wrapper, .texto_central__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 350px; 
+        gap: 20px 60px;
+        padding: 20px 40px; 
+        align-items: start; 
+    }
+
+    .main__wrapper h1 {
+
+        grid-column: 1 / -1; 
+        grid-row: 1 / 2;
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .main__wrapper p {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3; 
+    }
+
+    .main__img-container {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3; 
+        height: 100%;
+    }
+
+    .texto_central__wrapper p {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .texto_central__img-container {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        height: 100%;
+    }
+
+    .main__img, .texto_central__img {
+        height: 100%;
+        max-height: 350px; 
+    }
+}
+
+/*----------REFRAN----------*/
+
+.refran__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.refran__wrapper p {
+    font-style: italic;
+}
+
+@media (min-width: 870px) {
+    .refran__wrapper {
+        padding: 80px 20px;
+    }
+    
+    .refran__wrapper p {
+        font-size: 1.25rem;
+    }
+}

@@ -6,7 +6,6 @@ h2{
 /*----------PICTURES----------*/
 
 .from_10_to_17_camp-img-container{
-    margin: auto;
     width: calc(100% - 40px);
     overflow: hidden;
     margin: 20px;
@@ -18,7 +17,6 @@ h2{
 }
 
 .from_10_to_17_camp__goals-img-container{
-    margin: auto;
     width: calc(100% - 40px);
     overflow: hidden;
     margin: 20px;
@@ -31,7 +29,6 @@ h2{
 
 
 .more_than_17_camp-img-container{
-    margin: auto;
     width: calc(100% - 40px);
     overflow: hidden;
     margin: 20px;
