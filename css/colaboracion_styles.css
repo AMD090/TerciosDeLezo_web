@@ -2,6 +2,8 @@ p {
     margin: auto;
 }
 
+/*----------MORE INFORMATION/DECALOGO ENDS----------*/
+
 /*----------ESTILOS BASE (MÓVIL)----------*/
 
 .main, .texto_central {
@@ -123,3 +125,4 @@ p {
         font-size: 1.25rem;
     }
 }
+

@@ -43,6 +43,73 @@
 
 /*----------SECTION PICTURES ENDS----------*/
 
+/*----------COLABORATION SECTION----------*/
+
+.colaboracion{
+    margin-top: 25px;
+    background-color: #0003;
+}
+.colaboracion__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.colaboracion__link{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    max-height: 100px;
+    min-height: 50px;
+    min-width: 300px;
+    margin: 20px auto;
+    text-decoration: none;
+    z-index: 10;
+    box-shadow: 0 0 9px #000f;
+}
+
+.colaboracion__link-item{
+    text-align: center;
+}
+
+.colaboracion__link-item p{
+    color: #758A7D;
+    padding: 20px;
+}
+
+.colaboracion__link:is(:hover, :active){
+    outline: 2px solid #fff;
+}
+
+.colaboracion__img-container{
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+.colaboracion__img{
+    height: 100%;
+    border-radius: 20px;
+}
+
+/*----------COLABORATION QUERIES----------*/
+
+@media (min-width: 870px) {
+
+    .colaboracion__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    .colaboracion__titulo_boton{
+        margin: auto 10px;
+    }
+
+    .colaboracion__link{
+        width: 30%;
+        max-width: 350px;
+    }
+}
 
 /*----------MAIN----------*/
 

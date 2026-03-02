@@ -248,6 +248,7 @@ h2{
     .link{
         margin: 20px auto;
         width: 30%;
+        max-width: 350px;
     }
 }
 
